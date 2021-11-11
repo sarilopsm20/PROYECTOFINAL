@@ -1,18 +1,32 @@
+*{font-family: Amaranth;}
+
 .valMiVi{
     display: grid;
     grid-template-columns: auto auto auto auto auto;
     grid-row: 2;
+    grid-gap: 10px;
     text-align: center;
     background-color: #f4e1d2;
     align-content: center;
-    padding: 4%;
+    padding: 5%;
     border: 1px solid #bc5a45;
+    font-family: 'Amaranth';
 }
 
 p{
-    text-align: center;
+    text-align: justify;
 }
 
 section div div{
-    height: 300px;
+    padding: 20px;
+    border: 1px solid #4e3b37;
+    padding-bottom: 30%;
+    border-radius: 15px;
+}
+
+section div div:hover{
+    transform: scale(1.1); 
+    background-color: #f18973;
+    color: white;
+    border-radius: 15px;
 }
