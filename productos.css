@@ -1,0 +1,10 @@
+.valMiVi{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-row: 2;
+    text-align: center;
+    background-color: #f4e1d2;
+    align-content: center;
+    padding: 4%;
+    border: 1px solid #bc5a45;
+}

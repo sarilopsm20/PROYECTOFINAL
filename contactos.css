@@ -1,0 +1,111 @@
+.container{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 20px;
+    color: #fff;
+    grid-gap: 20px;
+  }
+  
+  .formulario, .map{
+    background-color: #f4e1d2;
+    border: 1px solid #bc5a45;
+    border-radius: 20px;
+    text-align: center;
+  
+  }
+
+input, textarea{
+      padding: 15px;
+      font-size: 12px;
+      border-radius: 15px;
+      margin: 5px;
+}
+
+.formulario div{
+    padding: 30px;
+}
+
+button {
+    background-color: #f4511e;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+button:hover {opacity: 1}
+  
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background: var(--black);
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.35s ease-in;
+  }
+  
+  .modal.is-visible {
+    visibility: visible;
+    opacity: 1.5;
+  }
+  
+  .modal-dialog {
+    position: relative;
+    max-width: 800px;
+    max-height: 80vh;
+    border-radius: 5px;
+    background-color: rgb(238, 222, 222);
+    overflow: auto;
+    cursor: default;
+    border: 2px solid #2b1610;
+    border-radius: 20px;
+  }
+  
+  .modal-dialog > * {
+    padding: 1rem;
+  }
+  
+  .modal-header{
+    background: var(--lightgray);
+  }
+  
+  .modal-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .modal-header .close-modal {
+    font-size: 1.5rem;
+  }
+  
+  .modal p + p {
+    margin-top: 1rem;
+  }
+  
+  .redes{
+      display: grid;
+      grid-template-columns: auto auto auto;
+      background-color: wheat;
+  }
+
+  svg{
+      width: 50px;
+      padding: 0;
+      margin: 0;
+  }

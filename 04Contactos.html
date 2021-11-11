@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Ima/logo.png" />
+    <link rel="stylesheet" href="inicio.css">
+    <link rel="stylesheet" href="inicio2.css">
+    <link rel="stylesheet" href="contactos.css">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Amaranth" />
+    <title>Dulcería y Pastelería Johel</title>
+</head>
+<body>
+    <br>
+    <header>
+        <nav>
+            <ul>
+                <li><div class="logo" width ="100px" style="padding: 0;">
+                    <img src="Ima/logo.png" alt="Dulcería Johel" title="Dulcería Johel" width="100px" style="padding: 0px 30px 10px 0px; text-align: center; float: left;">
+                </div></li>
+                <li><a href="01Dulcería.html">INICIO</a></li>
+                <li><a href="02Nosotros.html" target="_self">QUIÉNES SOMOS</a></li>
+                <li><a href="03Productos.html" target="_self">PRODUCTOS</a></li>
+                <li><a href="04Contactos.html" target="_self">CONTÁCTENOS</a></li>
+                <li><div><script type="text/javascript" src="Fecha.js"></script>
+                    </div></li>
+            </ul>
+        </nav>
+    </header>
+    <br>
+
+    <section>
+        <img src="Ima/bannerP.png" width="100%" alt="Dulcería y Pastelería Johel">
+    </section>
+
+    <br><br>
+
+    <section>
+        <div class="container">
+            <div class="formulario">
+                <div>
+                    <h1 style="color: #bc5a45;">Envíenos un mensaje</h1>
+                    <form action="">
+                        <input type="text" id="nombre" required="required" size="75" placeholder="Nombre*">
+                        <input type="text" id="apellido" required="required" size="75" placeholder="Apellido*">
+                        <input type="text" id="telefono" required="required" size="75" placeholder="Teléfono*">
+                        <input type="email" id="email" required="required" size="75" placeholder="Email*">
+                        <textarea name="Mensaje" id="mensaje" cols="60.5" rows="10" placeholder="Mensaje*" style="width:447px"></textarea>
+                        <br>
+                        <button type="button" class="open-modal" data-open="modal1" onclick="formulario()">
+                            Enviar
+                          </button>
+                    </form>
+                </div>
+            </div>
+            <div class="map" id="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3941.991722444403!2d-79.7832499855333!3d8.880360593624037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fac982c4ca5d4a9%3A0xc4c92cfc8bf520ac!2sFeuillet%20Park!5e0!3m2!1sen!2spa!4v1636331037344!5m2!1sen!2spa" width="800" height="650" style="border-radius:20px;" allowfullscreen="" loading="lazy"></iframe>   
+            </div>
+        </div>
+    </section>
+
+    <div class="modal" id="modal1" data-animation="slideInOutLeft">
+        <div class="modal-dialog">
+          <header class="modal-header">
+            Datos Introducidos
+            <button class="close-modal" aria-label="close modal" data-close>
+              ✕  
+            </button>
+          </header>
+          <section class="modal-content">
+            <p>LA TABLA</p>
+          </section>
+        </div>
+      </div>
+    </div>
+
+    <br><br>
+
+    <section>
+        <div class="redes">
+            <div class="call">
+                Call Center: <br> 236-9558 <br> Whatsapp: <br> 6008-1160 
+            </div>
+            <div class="redes">
+                Redes sociales: <br> <a href="#" title="Dulcería Momi on Twitter" rel="me" target="_blank"  rel="noopener"class="icon-twitter"> <span class="icon " data-icon="twitter"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><g id="twitter"><path d="M95,22.1A37,37,0,0,1,84.4,25a18.51,18.51,0,0,0,8.11-10.2,37.17,37.17,0,0,1-11.73,4.48A18.47,18.47,0,0,0,48.84,31.9a18.8,18.8,0,0,0,.48,4.21,52.42,52.42,0,0,1-38-19.29A18.49,18.49,0,0,0,17,41.47a18.63,18.63,0,0,1-8.36-2.32v.23a18.48,18.48,0,0,0,14.81,18.1,18.58,18.58,0,0,1-4.87.65,18.07,18.07,0,0,1-3.47-.34A18.48,18.48,0,0,0,32.33,70.61,37,37,0,0,1,9.4,78.5,40,40,0,0,1,5,78.25a52.23,52.23,0,0,0,28.3,8.3c34,0,52.53-28.13,52.53-52.52l-.06-2.39A37,37,0,0,0,95,22.1Z"></path></g></svg>
+                </span></a>
+                <br> <a href="#" title="Dulcería Momi on Facebook" rel="me" target="_blank"  rel="noopener"class="icon-facebook">
+                    <span class="icon " data-icon="facebook"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><g id="facebook"><path d="M57,27.73V38H72.83l-2.09,16H57V95H40.45V53.94H26.62V38H40.45V26.15C40.45,12.46,48.83,5,61,5h0a115.36,115.36,0,0,1,12.34.63V19.94H64.92C58.26,19.94,57,23.1,57,27.73Z"></path></g></svg>                     
+                    </span></a> 
+                <br> <a href="#" title="Dulcería Momi on Instagram" rel="me" target="_blank"  rel="noopener"class="icon-instagram">
+                    <span class="icon " data-icon="instagram"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><g id="instagram"><path d="M73.75,5H26.25A21.27,21.27,0,0,0,5,26.25v47.5A21.27,21.27,0,0,0,26.25,95h47.5A21.27,21.27,0,0,0,95,73.75V26.25A21.27,21.27,0,0,0,73.75,5Zm-8.6,60.13A21.43,21.43,0,1,1,71.44,50,21.4,21.4,0,0,1,65.15,65.13ZM81.9,29.34A7.62,7.62,0,1,1,84.14,24,7.59,7.59,0,0,1,81.9,29.34Z"></path></g></svg>
+                    </span></a>
+            </div>
+            <div class="correp">
+                <div id="shopify-section-1594068846720" class="footer__block block__1594068846720 block__newsletter one-third medium-down--one-whole column"> <p class="footer__heading">Newsletter</p> <div class="content"> <p>Suscríbete a nuestro newsletter y sé el primero en enterarte de todas nuestras promociones.</p></div>
+                    <div class="newsletter-form__wrapper "> <div class="form__success-message text-align-"></div> <form method="post" action="/contact#newsletter_form" id="newsletter_form" accept-charset="UTF-8" class="contact-form newsletter-form--newsletter-section" onsubmit=""><input type="hidden" name="form_type" value="customer"><input type="hidden" name="utf8" value="✓"> <input type="hidden" name="contact[tags]" value="prospect,newsletter"> <input type="hidden" name="challenge" value="false"> <div class="newsletter-form form is-responsive"> <div class="field is-stretched-width  is-full-width "> <label class="label newsletter__text is-sr-only">
+                                Nombre</label> <div class="control"> <input class="input is-primary-btn-style is-regular" type="text" name="contact[first_name]" placeholder="Nombre"></div></div> <div class="field is-stretched-width"> <label class="label newsletter__text is-sr-only">
+                            Correo electrónico<span class="required">*</span></label> <div class="control "> <input class="input is-primary-btn-style is-regular" type="email" name="contact[email]" placeholder="Correo electrónico*" required=""></div></div> <div class="field is-default-width is-align-self-end"> <div class="control"> <button type="submit" class="button button--primary is-within-form">Registrarse</button></div></div></div></form>
+                    </div></div>
+                </div>
+
+            </div>
+    </section>
+    <footer>
+        <div class="autor">Johel Salgado 2021. Sitio Web con los derechos reservados.</div>
+    </footer>
+    <script src="contactos.js"></script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+*{
+    font-family: Amaranth;
+}
+
+.nosotros{
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+    background-color: #f4e1d2;
+}
+
+.Historia{
+    text-align: justify;
+    padding-top: 6%;
+    color: #444;
+    font-size: 18px;
+}
+
+.valMiVi{
+    display: grid;
+    grid-template: 'mision vision valores';
+    text-align: center;
+    background-color: #f4e1d2;
+    align-content: center;
+    padding: 4%;
+    border: 1px solid #bc5a45;
+}
+
+.valores{grid-area: valores}
+.mision{grid-area: mision;}
+.vision{grid-area: vision;}
+
+.valores, .mision, .vision{
+    width: 90%;
+    text-align: justify;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 15px;
+    border: 1px solid #bc5a45;
+}
+
+p, h1{
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-bottom: 2%;
+}
+
+.valores:hover, .mision:hover, .vision:hover{
+    transform: scale(1.1); 
+    background-color: #f18973;
+    color: white;
+    border-radius: 15px;
+}
